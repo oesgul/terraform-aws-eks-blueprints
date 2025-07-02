@@ -9,7 +9,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   namespace: oktaytest
-  name: game-2048-vw
+  name: game-2048
 spec:
   replicas: 3
   selector:
